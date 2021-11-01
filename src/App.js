@@ -11,6 +11,7 @@ function App() {
   <div className="App"> 
     <Router>
       <Navbar />
+      dssss
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/Timeline" exact component={Timeline} />
