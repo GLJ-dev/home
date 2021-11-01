@@ -1,0 +1,165 @@
+  .home {
+    display: flex;
+    justify-content: flex-start;
+    margin: 180px 0 40px 0;
+  
+  }
+
+  .backgroundBociek {
+    margin: 50px 0 0 40px;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 547px;
+    flex-shrink: 0;
+  }
+  
+  .headerContainer {
+    margin: 10px 0 0 0;
+    align-self: center;
+    width: 850px;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: 50;
+    color: black;
+  }
+  
+  .headerContainer p {
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .headerContainer button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 50px;
+    width: 180px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .headerContainer button:hover {
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+
+@media only screen and (max-width: 1450px){
+  .headerContainer {
+    width: 700px;
+  } 
+}
+
+
+@media only screen and (max-width: 1300px){
+  .headerContainer {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  
+  
+  .headerContainer {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .backgroundBociek{
+    margin: 50px 0 0 0;
+    height: 250px;
+    width: 330px;
+  } 
+
+  .headerContainer {
+    width: 450px;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 40;
+    color: black;
+  }
+  
+  .headerContainer p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .backgroundBociek {
+    margin: 0;
+  }
+  
+  .headerContainer {
+    margin: -20px 10px 10px 20px;
+  }
+  .headerContainer h1 {
+    text-align: center;
+  }
+}
+
+  /*@media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+
+  }
+  */

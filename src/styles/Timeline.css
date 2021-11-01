@@ -1,0 +1,197 @@
+@media only screen and (min-width: 769px) {
+    
+    .timelineTitle {
+        text-align: center;
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        flex-shrink: 1;
+    }
+    .eventBackground {
+        width: 270px;
+        height: 160px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+    }
+
+    .timelineContainer {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin: 0 auto;
+        width: 1000px;
+        position: relative;
+    }
+
+    .timelineContainer::after {
+        background-color: #e17b77;
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 100%;
+        left: calc(50% - 2px);
+    }
+
+    .timelineItem {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+        margin: 10px 0;
+        width: 50%;
+    }
+
+    .timelineItem:nth-child(odd) {
+        align-self: flex-end;
+        justify-content: flex-start;
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .timelineItemContent {
+        background-color: rgb(233, 233, 233);
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 15px;
+        text-align: right;
+        position: relative;
+    }
+    .timelineItemContent::after {
+        content: '';
+        background-color: rgb(233, 233, 233);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, .3);
+        transform: rotate(45deg);
+        position: absolute;
+        right: -10px;
+        top: calc(50% - 10px);
+        width: 20px;
+        height: 20px;
+    }
+    /* Shadow to the left of element on odd side  */
+    .timelineItem:nth-child(odd) .timelineItemContent {
+        box-shadow: -3px 3px 3px rgba(0, 0, 0, .3);
+    }
+    /* Shadow to the left of element::after(triangle) on odd side  */
+    .timelineItem:nth-child(odd) .timelineItemContent::after {
+        box-shadow: -3px 3px 3px rgba(0, 0, 0, .3);
+    }
+
+    .timelineItem:nth-child(odd) .timelineItemContent {
+    align-items: flex-start;
+        text-align: left;
+    }
+    .timelineItem:nth-child(odd) .timelineItemContent::after {
+        right: auto;
+        left: -10px;
+    }
+
+    .timelineItemContent.eventName {
+        letter-spacing: 3px;
+    }
+
+    .timelineItemContent .eventDate {
+        color: #777;
+        font-size: 14px;
+    }
+
+    .timelineItemContent .eventDescription {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 15px 10px;
+    }
+
+    .timelineItemContent .circle {
+        background-color: #ffffff;
+        width: 20px;
+        height: 20px;
+        border: 3px solid #e17b77;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - 10px);
+        right: -40px;
+        z-index: 100;
+    }
+    .timelineItem:nth-child(odd) .timelineItemContent .circle {
+        right: auto;
+        left: -40px;
+    }
+}
+@media only screen and (min-width: 993px) and ( max-width: 1200px) {
+    .timelineContainer{
+        width: 900px;
+    }
+    .timelineItemContent,
+    .timelineItem:nth-child(odd) .timelineItemContent {
+        padding: 15px 10px;
+        width: 400px;
+        background-color: rgb(233, 233, 233);
+    }
+}
+@media only screen and (min-width: 769px) and  (max-width: 992px) {
+    .timelineContainer{
+        width: 700px;
+    }
+    
+    .timelineItemContent,
+    .timelineItem:nth-child(odd) .timelineItemContent {
+        padding: 15px 10px;
+        width: 300px;
+        background-color: rgb(233, 233, 233);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .timelineDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .timelineContainer {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .timelineItemContent {
+        background-color: rgb(233, 233, 233);
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eventDate {
+        align-self: center;
+    }
+    .eventBackground {
+        align-self: center;
+        height: 200px;
+        width: 270px;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .eventBackground {
+        height: 100px;
+        width: 150px;
+    }
+}
+
+
+/*		- col-xs	=> extra small	<  576px
+		- col-sm	=> small 	>= 576px
+		- col-md	=> medium 	>= 768px
+		- col-lg	=> large 	>= 992px
+		- col-xl	=> xlarge 	>= 1200px*/
