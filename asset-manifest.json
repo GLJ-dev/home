@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.6984a150.chunk.css",
-    "main.js": "/home/static/js/main.a6873b2d.chunk.js",
-    "main.js.map": "/home/static/js/main.a6873b2d.chunk.js.map",
+    "main.css": "/home/static/css/main.48479650.chunk.css",
+    "main.js": "/home/static/js/main.c8115cda.chunk.js",
+    "main.js.map": "/home/static/js/main.c8115cda.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.bebff735.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.bebff735.js.map",
     "static/js/2.037f5cb3.chunk.js": "/home/static/js/2.037f5cb3.chunk.js",
     "static/js/2.037f5cb3.chunk.js.map": "/home/static/js/2.037f5cb3.chunk.js.map",
     "index.html": "/home/index.html",
-    "static/css/main.6984a150.chunk.css.map": "/home/static/css/main.6984a150.chunk.css.map",
+    "static/css/main.48479650.chunk.css.map": "/home/static/css/main.48479650.chunk.css.map",
     "static/js/2.037f5cb3.chunk.js.LICENSE.txt": "/home/static/js/2.037f5cb3.chunk.js.LICENSE.txt",
     "static/media/andrzejki.4fd3fee2.jpg": "/home/static/media/andrzejki.4fd3fee2.jpg",
     "static/media/christmas.cbdd19c8.jpg": "/home/static/media/christmas.cbdd19c8.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.bebff735.js",
     "static/js/2.037f5cb3.chunk.js",
-    "static/css/main.6984a150.chunk.css",
-    "static/js/main.a6873b2d.chunk.js"
+    "static/css/main.48479650.chunk.css",
+    "static/js/main.c8115cda.chunk.js"
   ]
 }
