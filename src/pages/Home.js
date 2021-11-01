@@ -12,7 +12,7 @@ function Home() {
         <div className="headerContainer">
             <h1><strong>O nas</strong></h1>
             <p>&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus 
+                tttDonec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus 
                 viverra vitae congue eu consequat ac felis donec et odio pellentesque 
                 diam volutpat commodo sed egestas egestas fringilla phasellus faucibus sceleris
                 que eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada 
