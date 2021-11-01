@@ -15,7 +15,7 @@ function Footer() {
                 <LinkedIn />
             </div>
             
-            <p> &copy; 2021 pedrotechpizza.com</p>
+            <p> &copy; 2021 PP.com</p>
         </div>
     )
 }
