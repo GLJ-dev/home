@@ -1,8 +1,10 @@
   .home {
+    
+    background-color: white;
     display: flex;
     justify-content: flex-start;
-    margin: 180px 0 40px 0;
-  
+    margin: 85px 0 5px 0;
+    padding: 70px 0;
   }
 
   .backgroundBociek {
@@ -114,6 +116,7 @@
   
   .headerContainer {
     margin: -20px 10px 10px 20px;
+    width: 430px;
   }
   .headerContainer h1 {
     text-align: center;
