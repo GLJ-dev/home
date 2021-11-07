@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    <Link className="nav-links" to="/home">P P</Link>
+                    <Link className="nav-links" to="/">P P</Link>
                     <Link className="nav-links" to="/timeline">Events</Link>
                     <Link className="nav-links" to="/biblioteka">Library</Link>
                     <Link className="nav-links" to="/kontakt">Contact</Link>
