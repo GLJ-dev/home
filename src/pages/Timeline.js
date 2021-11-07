@@ -6,7 +6,7 @@ import '../styles/Timeline.css'
 function Timeline() {
     return (
         <div className="timelineDiv">
-            <h1 className="timelineTitle">Lista Wydarzen</h1>
+            <h1 className="timelineTitle">Events</h1>
             <div className="timelineContainer">
                 {ListOfEvents.map((event, key) => {
                     return (
