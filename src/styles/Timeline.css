@@ -1,11 +1,22 @@
+.timelineTitle {
+    font-size: 70px;
+    font-weight: 40;
+    
+}
+
+.timelineDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
 @media only screen and (min-width: 769px) {
     
     .timelineTitle {
         text-align: center;
-        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        font-size: 50px;
         letter-spacing: 5px;
-        margin-top: 150px;
+        margin-top: 80px;
         margin-bottom: 50px;
         flex-shrink: 1;
     }
@@ -83,7 +94,7 @@
     }
 
     .timelineItem:nth-child(odd) .timelineItemContent {
-    align-items: flex-start;
+        align-items: flex-start;
         text-align: left;
     }
     .timelineItem:nth-child(odd) .timelineItemContent::after {
@@ -147,6 +158,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+.timelineTitle {
+    font-size: 70px;
+    font-weight: 40;
+}
+
     .timelineDiv {
         display: flex;
         flex-direction: column;

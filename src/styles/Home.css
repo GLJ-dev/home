@@ -1,5 +1,4 @@
   .home {
-    
     background-color: white;
     display: flex;
     justify-content: flex-start;
@@ -25,9 +24,9 @@
   .headerContainer h1 {
     justify-content: center;
     align-items: center;
-    font-size: 90px;
-    font-weight: 50;
     color: black;
+    font-size: 70px;
+    font-weight: 40;
   }
   
   .headerContainer p {
@@ -91,8 +90,6 @@
   .headerContainer h1 {
     justify-content: center;
     align-items: center;
-    font-size: 70px;
-    font-weight: 40;
     color: black;
   }
   
@@ -116,10 +113,12 @@
   
   .headerContainer {
     margin: -20px 10px 10px 20px;
-    width: 430px;
+    width: 400px;
   }
   .headerContainer h1 {
     text-align: center;
+    font-size: 50px;
+    font-weight: 20;
   }
 }
 

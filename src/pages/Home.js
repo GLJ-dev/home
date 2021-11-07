@@ -10,7 +10,7 @@ function Home() {
         <div className="backgroundBociek" style={{backgroundImage: `url(${BackgroundImg})`}}>
         </div>
         <div className="headerContainer">
-            <h1><strong>About</strong></h1>
+            <h1>About</h1>
             <p>&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 tttDonec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus 
                 viverra vitae congue eu consequat ac felis donec et odio pellentesque 
