@@ -15,9 +15,8 @@ function App() {
       <Switch>
         <Route path="/Timeline" exact component={Timeline} />
       </Switch>
+      <Footer />
     </Router>
-    <Footer />
-    
   </div>
   );
 }

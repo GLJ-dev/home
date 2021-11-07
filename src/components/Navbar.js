@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Logo from '../assets/logo_bociek.png'
 import { Link } from "react-router-dom"
 import '../styles/Navbar.css'
-import { ThreeSixty } from '@mui/icons-material';
 
 class Navbar extends React.Component {
     state = { clicked: false }
@@ -19,10 +18,10 @@ class Navbar extends React.Component {
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    <Link className="nav-links" to="/">P P</Link>
-                    <Link className="nav-links" to="/timeline">Events</Link>
-                    <Link className="nav-links" to="/biblioteka">Library</Link>
-                    <Link className="nav-links" to="/kontakt">Contact</Link>
+                    <Link className="nav-links" to="/">Po Polsku</Link>
+                    <Link className="nav-links" to="/timeline">Wydarzenia</Link>
+                    <Link className="nav-links" to="/biblioteka">Biblioteka</Link>
+                    <Link className="nav-links" to="/kontakt">Kontakt</Link>
                 </ul>
             </nav>
         )
