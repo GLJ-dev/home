@@ -10,10 +10,10 @@ function App() {
   return (
   <div className="App"> 
     <Router>
+      AAAAAA
       <Navbar />
       <Route path="/home" exact component={Home} />
       <Switch>
-        
         <Route path="/Timeline" exact component={Timeline} />
       </Switch>
     </Router>
